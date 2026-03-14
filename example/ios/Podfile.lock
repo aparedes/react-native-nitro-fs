@@ -68,7 +68,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - NitroModules (0.31.9):
+  - NitroModules (0.35.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -2442,7 +2442,7 @@ DEPENDENCIES:
   - hermes-engine (from `../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - NitroDocumentPicker (from `../../node_modules/react-native-nitro-document-picker`)
   - NitroFS (from `../..`)
-  - NitroModules (from `../../node_modules/react-native-nitro-modules`)
+  - NitroModules (from `../node_modules/react-native-nitro-modules`)
   - RCT-Folly (from `../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
   - RCTRequired (from `../../node_modules/react-native/Libraries/Required`)
@@ -2536,7 +2536,7 @@ EXTERNAL SOURCES:
   NitroFS:
     :path: "../.."
   NitroModules:
-    :path: "../../node_modules/react-native-nitro-modules"
+    :path: "../node_modules/react-native-nitro-modules"
   RCT-Folly:
     :podspec: "../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTDeprecation:
@@ -2678,7 +2678,7 @@ SPEC CHECKSUMS:
   hermes-engine: 9f4dfe93326146a1c99eb535b1cb0b857a3cd172
   NitroDocumentPicker: 3f7adcb535ed9ac19a92a65c7228da559227ffdb
   NitroFS: a95f56e0a9ae2674f8e98c22cb671f60fef788ec
-  NitroModules: 224bf833d249b0c7ce32831368f2887008579b13
+  NitroModules: 1a83020d32c23e06c9ba0e3d78e917bb91a52703
   RCT-Folly: 846fda9475e61ec7bcbf8a3fe81edfcaeb090669
   RCTDeprecation: 5eb1d2eeff5fb91151e8a8eef45b6c7658b6c897
   RCTRequired: cebcf9442fc296c9b89ac791dfd463021d9f6f23
