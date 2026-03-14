@@ -34,7 +34,7 @@ jobs:
 
       - name: Commit updated lock files
         run: |
-          git add example/ios/Podfile.lock bun.lock nitrogen/generated/
+          git add example/ios/Podfile.lock example/ios/NitroFsExample.xcodeproj/project.pbxproj bun.lock nitrogen/generated/
           git diff --cached --quiet && echo "No changes" && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
