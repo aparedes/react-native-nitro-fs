@@ -2442,7 +2442,7 @@ DEPENDENCIES:
   - hermes-engine (from `../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - NitroDocumentPicker (from `../../node_modules/react-native-nitro-document-picker`)
   - NitroFS (from `../..`)
-  - NitroModules (from `../node_modules/react-native-nitro-modules`)
+  - NitroModules (from `../../node_modules/react-native-nitro-modules`)
   - RCT-Folly (from `../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
   - RCTRequired (from `../../node_modules/react-native/Libraries/Required`)
@@ -2536,7 +2536,7 @@ EXTERNAL SOURCES:
   NitroFS:
     :path: "../.."
   NitroModules:
-    :path: "../node_modules/react-native-nitro-modules"
+    :path: "../../node_modules/react-native-nitro-modules"
   RCT-Folly:
     :podspec: "../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTDeprecation:
